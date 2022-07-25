@@ -4,3 +4,35 @@
     left: 10%;
     top: 33%
 }
+.drop span {
+    position: relative;
+    margin: 3px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border: 0.4px solid black;
+    background-color: white;
+    animation: dop 4s ease-in-out infinite;
+}
+.drop span :nth-child(1) {
+    animation-delay: 1s;
+    top: 18px;
+}
+.drop span :nth-child(2) {
+    animation-delay: 2s;
+    top: 20px;
+}
+.drop span :nth-child(3) {
+    animation-delay: 3s;
+    top: 22px;
+}
+.drop span :nth-child(4) {
+    animation-delay: 4s;
+    top: 24px;
+}
+@keyframes dop {
+    from {
+        top: 2px;
+        transform: scale(2);
+    }
+}
