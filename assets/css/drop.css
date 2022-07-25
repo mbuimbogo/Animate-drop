@@ -1,0 +1,6 @@
+.drop {
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 33%
+}
